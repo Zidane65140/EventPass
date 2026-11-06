@@ -1,0 +1,18 @@
+# Build-Dateien
+/build/ 
+/target/
+
+#Eclipse
+.metadata/ Servers/
+
+#Betriebssystem
+.DS_Store Thumbs.db
+
+#Logs
+*.log
+
+#Datenbank-Zugangsdaten
+**/db.properties
+
+#Private Zugangsdaten
+.env
